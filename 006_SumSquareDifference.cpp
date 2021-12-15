@@ -11,6 +11,8 @@ int main()
 {
 	int N;
 	N = 100;
-	cout<< pow(N*(N+1)/2,2) -N*(N+1)*(2*N+1)/6<< "\n";
+	double result =  pow(N*(N+1)/2,2) - N*(N+1)*(2*N+1)/6;
+	cout.precision(8);
+	cout<< result <<"\n";
 	return 0;
 }
