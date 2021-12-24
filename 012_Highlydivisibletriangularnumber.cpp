@@ -18,7 +18,7 @@ int main()
 	do{
 		k++;	
 		a = triangle(k);
-	}while(numdivisor(a)<50);
+	}while(numdivisor(a)<500);
 	cout << triangle(k) << "\n"; 
 	return 0;
 }
