@@ -26,7 +26,7 @@ int main()
 			dummy = dummy + 1;
 		} while (divisibility(dummy,i)==1);
 		prime[i+1]=dummy;
-		// sum += prime[i];
+		sum += prime[i];
 		count += 1;
 	}
 	cout << sum << "\n";
