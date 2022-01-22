@@ -1,4 +1,4 @@
-## Following are solutions to problems in [Project Euler](https://projecteuler.net/archives)
+## Following are solutions to some of the problems in [Project Euler](https://projecteuler.net/archives)
 
 1. [Multiples of 3 and 5](https://github.com/dishajk/Project-Euler/blob/master/001_Multiplesof3and5.cpp)
 2. [Even Fibonacci numbers](https://github.com/dishajk/Project-Euler/blob/master/002_even_fibonacci.cpp)
