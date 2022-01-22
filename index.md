@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Following are solutions to problems in [Project Euler](https://projecteuler.net/archives)
 
-You can use the [editor on GitHub](https://github.com/dishajk/Project-Euler/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dishajk/Project-Euler/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. [Multiples of 3 and 5](https://github.com/dishajk/Project-Euler/blob/master/001_Multiplesof3and5.cpp)
+2. [Even Fibonacci numbers](https://github.com/dishajk/Project-Euler/blob/master/002_even_fibonacci.cpp)
+3. [Largest prime factor](https://github.com/dishajk/Project-Euler/blob/master/003_primefactor.cpp)
+4. [Largest palindrome product](https://github.com/dishajk/Project-Euler/blob/master/004_Largestpalindromeproduct.cpp)
+5. [Smallest multiple](https://github.com/dishajk/Project-Euler/blob/master/005_nth_prime.cpp)
+6. [Sum square difference](https://github.com/dishajk/Project-Euler/blob/master/006_SumSquareDifference.cpp)
+7. [10001st prime](https://github.com/dishajk/Project-Euler/blob/master/007_nth_prime.cpp)
+8. [Largest product in a series](https://github.com/dishajk/Project-Euler/blob/master/008_Largest_product_series.cpp)
+9. [Special Pythagorean triplet](https://github.com/dishajk/Project-Euler/blob/master/009_PythagoreanTriple.cpp)
+10. [Summation of primes](https://github.com/dishajk/Project-Euler/blob/master/011_productinagrid.cpp)
+11. [Largest product in a grid](https://github.com/dishajk/Project-Euler/blob/master/011_productinagrid.cpp)
+12. [Highly divisible triangular number](https://github.com/dishajk/Project-Euler/blob/master/012_Highlydivisibletriangularnumber.cpp)
+14. [Longest Collatz sequence](https://github.com/dishajk/Project-Euler/blob/master/014_CollatzSequence.cpp)
