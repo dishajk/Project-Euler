@@ -7,8 +7,6 @@
 
 using namespace std;
 
-int palindrome(int p);
-int unitd(int q);
 int main()
 {
 	long int N = 600851475143;
