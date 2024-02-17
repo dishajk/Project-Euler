@@ -48,6 +48,7 @@ int palindrome(int p){
 	}
 	return 0;
 }
+
 int unitd(int q){
 	return q%10;
 }
