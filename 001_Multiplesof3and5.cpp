@@ -5,22 +5,21 @@
 #include <stdio.h>
 
 using namespace std;
+int nsum(int n);
+int main() {
+    const int a = 3;
+    const int b = 5;
+    const int N = 1000 - 1;
 
-int nsum(int n); 
-int main()
-{
-	int a, b, N, p, q, r, sum;
-	a = 3;
-	b = 5;
-	N = 1000-1;
-	p = N/a;
-	q = N/b;
-	r = N/(a*b);
-	sum = 0;
-	cout << p << "\t" << q << "\t" << r << endl;
-	cout << a*nsum(p) + b*nsum(q) - a*b*nsum(r) << endl;
-	return 0;
+    const int p = N / a;
+    const int q = N / b;
+    const int r = N / (a * b);
+
+    cout << p << "\t" << q << "\t" << r << endl;
+    cout << a * nsum(p) + b * nsum(q) - a * b * nsum(r) << endl;
+
+    return 0;
 }
-int nsum(int n){
-	return n*(n+1)/2;
+int nsum(int n) {
+    return n * (n + 1) / 2;
 }
