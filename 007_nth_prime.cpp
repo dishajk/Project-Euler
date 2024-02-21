@@ -8,7 +8,7 @@
 
 using namespace std;
 
-const int n = 10001;
+const int n =10001;
 int prime[n]; 
 
 int divisibility(int, int);
