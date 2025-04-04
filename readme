@@ -1,1 +1,9 @@
-solutions to problems in https://projecteuler.net/archives
+**solutions to problems in [Project Euler](https://projecteuler.net/archives)**
+
+## Source files
+
+|Sum of n natural numbers|[nsum.cpp](nsum.cpp)|
+
+## Solutions
+
+|1|	Multiples of 3 or 5|[Solution](001_Multiplesof3and5.cpp)|
