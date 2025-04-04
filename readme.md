@@ -10,6 +10,7 @@
 
 |ID| Problem| Solution|
 |:---|:---|:---|
+|9| [Special Pythagorean Triplet](https://projecteuler.net/problem=9)||[Solution - 009_PythagoreanTriple.cpp](009_PythagoreanTriple.cpp)|
 |8| [Largest Product in a Series](https://projecteuler.net/problem=8)|[Solution - 008_Largest_product_series.cpp](008_Largest_product_series.cpp)|
 |7|[10001st Prime](https://projecteuler.net/problem=7)| [Solution - 007_nth_prime.cpp](007_nth_prime.cpp)|
 |6|[Sum Square Difference](https://projecteuler.net/problem=6) | [Solution - 006_SumSquareDifference.cpp](006_SumSquareDifference.cpp)|
