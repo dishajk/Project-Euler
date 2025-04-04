@@ -7,25 +7,28 @@
 
 using namespace std;
 
-int unitd(int q);
 int palindrome(int p);
 int main()
 {	
-	int j, p;
-	for (int sum = 0; sum < 100; sum++)
-	{
-		for (int i = 0; i <= (sum+sum%2)/2; i++) /*considering only the lower triangle*/
-		{
-			j = sum -i;
-			p = (999-i)*(999-j);
-			if (palindrome(p)==1)
-			{
-				cout << 999-i << "x" << 999-j << " = " << p << endl;
-				sum = 100;
+	int pnum = 0;
+	int m, n;
+
+	for (int i = 999; i >= 100; i--){
+		for (int j = i; j >= 100; j--){
+			int product = i * j;
+			if (product <= pnum){
 				break;
+			}
+			if (palindrome(product)==1){
+				pnum = product;
+				m = i;
+				n = j;
 			}
 		}
 	}
+
+	cout << "Largest palindrome product: " << n << " x " << n << " = " << pnum << endl;
+
 	return 0;
 }
 // Function to check whether a 6 digit number is a palindrome
@@ -33,12 +36,12 @@ int palindrome(int p){
 	int x[6];
 	for (int i = 0; i < 4; i++)
 	{
-		x[i] = unitd(p);
+		x[i] = p%10;
 		p = (p - x[i])/10;
 	}
 	if (x[2]==x[3])
 	{
-		x[4] = unitd(p);
+		x[4] = p%10;
 		p = (p-x[4])/10;
 		if (x[4]==x[1] && p == x[0])
 		{
@@ -47,8 +50,4 @@ int palindrome(int p){
 		return 0;
 	}
 	return 0;
-}
-
-int unitd(int q){
-	return q%10;
 }
