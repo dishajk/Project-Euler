@@ -4,12 +4,13 @@
 
 |function|filename|
 |:---|:---|
-|||
+|GCD of two numbers|[gcd.cpp](gcd.cpp)|
 
 ## Solutions
 
 |ID| Problem| Solution|
 |:---|:---|:---|
+|5| Smallest Multiple | [Solution](005_smallest_multiple.cpp)|
 |4| Largest Palindrome Product | [Solution](004_Largestpalindromeproduct.cpp)|
 |3| Largest Prime Factor| [Solution](003_primefactor.cpp)|
 |2| Even Fibonacci Numbers| [Solution](002_even_fibonacci.cpp)|
