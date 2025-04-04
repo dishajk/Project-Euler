@@ -1,6 +1,7 @@
 // Even Fibonacci numbers
 // https://projecteuler.net/problem=2
 // sum of the even-valued terms in the Fibonacci sequence whose values do not exceed four million
+
 #include <iostream>
 #include <stdio.h>
 #include <cmath>
@@ -22,6 +23,6 @@ int main()
 		a1 = a4;
 		a4 = a7;
 	}
-	cout << sum << endl;
+	cout << "Sum of even valued terms in the Fibonacc sequence starting with 1 and 2 not exceeding " << N << " is " << sum << endl;
 	return 0;
 }
