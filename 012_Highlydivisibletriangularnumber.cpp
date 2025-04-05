@@ -7,8 +7,6 @@
 
 using namespace std;
 
-int triangle(int n); 
-int divisibility(int number, int divisor);
 int numdivisor(int n);
 
 int main()
@@ -17,25 +15,16 @@ int main()
 	int a;
 	do{
 		k++;	
-		a = triangle(k);
+		a = k*(k+1)/2;
 	}while(numdivisor(a)<500);
-	cout << triangle(k) << "\n"; 
-	return 0;
-}
-int triangle(int n){
-	return n*(n+1)/2;
-}
-int divisibility(int number, int divisor){
-	if (number%divisor==0){
-		return 1;	/*if divisible return 1*/
-	}
+	cout << k*(k+1)/2 << "\n"; 
 	return 0;
 }
 int numdivisor(int n){
 	int num = 2;
 	int divisor = 2;
 	do{
-		if(divisibility(n,divisor)==1){
+		if(n%divisor==0){
 			if(n==divisor*divisor){
 				num+=1;
 			}
