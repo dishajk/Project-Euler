@@ -10,6 +10,7 @@
 
 |ID| Problem| Solution|
 |:---|:---|:---|
+|14|[Longest Collatz Sequence](https://projecteuler.net/problem=14)|[014_CollatzSequence.cpp](014_CollatzSequence.cpp)|
 |13| [Large Sum](https://projecteuler.net/problem=13)|[Solution - 013_largesum.cpp](013_largesum.cpp)|
 |12| [Highly Divisible Triangular Number](https://projecteuler.net/problem=12)|[Solution - 012_Highlydivisibletriangularnumber.cpp](012_Highlydivisibletriangularnumber.cpp)|
 |11|[Largest Product in a Grid](https://projecteuler.net/problem=11)|[Solution - 011_productinagrid.cpp](011_productinagrid.cpp)|
