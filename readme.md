@@ -4,7 +4,9 @@
 
 |function|filename|
 |:---|:---|
-|GCD of two numbers|[gcd.cpp](gcd.cpp)|
+|n Choose k|[nchoosek(n,k)](nchoosek.cpp)|
+|GCD of two numbers|[gcd(a,b)](gcd.cpp)|
+|Factorial|[factorial(n)](factorial.cpp)|
 
 ## Solutions
 
@@ -12,6 +14,7 @@
 |:---|:---|:---|
 |20|[Factorial Digit Sum](https://projecteuler.net/problem=20)|Uses the same logic as power digit sum. [Solution](020_Factorial_Digit_Sum.cpp)|
 |16|[Power Digit Sum](https://projecteuler.net/problem=16)|[016_power_digit_sum.cpp](016_power_digit_sum.cpp)|
+|15|[Lattice Paths](https://projecteuler.net/problem=15)|use double when dealing with division [Solution](015_Lattice_Paths.cpp)|
 |14|[Longest Collatz Sequence](https://projecteuler.net/problem=14)|[014_CollatzSequence.cpp](014_CollatzSequence.cpp)|
 |13| [Large Sum](https://projecteuler.net/problem=13)|[Solution - 013_largesum.cpp](013_largesum.cpp)|
 |12| [Highly Divisible Triangular Number](https://projecteuler.net/problem=12)|[Solution - 012_Highlydivisibletriangularnumber.cpp](012_Highlydivisibletriangularnumber.cpp)|
