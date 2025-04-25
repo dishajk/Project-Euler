@@ -1,5 +1,7 @@
 **solutions to problems in [Project Euler](https://projecteuler.net/archives)**
 
+![Badge - unsure whether this works](https://projecteuler.net/profile/disha.jk.png)
+
 ## Source files
 
 |function|function name and file|
