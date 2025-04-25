@@ -2,7 +2,7 @@
 
 ## Source files
 
-|function|filename|
+|function|function name and file|
 |:---|:---|
 |n Choose k|[nchoosek(n,k)](nchoosek.cpp)|
 |GCD of two numbers|[gcd(a,b)](gcd.cpp)|
@@ -12,6 +12,7 @@
 
 |ID| Problem| Solution|
 |:---|:---|:---|
+|25|[1000-digit Fibonacci Number](https://projecteuler.net/problem=25)|string addition of large numbers. [solution](025_Fibonacci.cpp)|
 |20|[Factorial Digit Sum](https://projecteuler.net/problem=20)|Uses the same logic as power digit sum. [Solution](020_Factorial_Digit_Sum.cpp)|
 |16|[Power Digit Sum](https://projecteuler.net/problem=16)|[016_power_digit_sum.cpp](016_power_digit_sum.cpp)|
 |15|[Lattice Paths](https://projecteuler.net/problem=15)|use double when dealing with division [Solution](015_Lattice_Paths.cpp)|
