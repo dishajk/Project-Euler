@@ -14,16 +14,15 @@ int main()
 
     for (int i = n-1; i > 1; i--) {
         int carry = 0;
-
         for (int j = number.size() - 1; j >= 0; j--) {
             int digit = number[j] - '0';
-            int multiple = i * digit + carry;
-            carry = multiple / 10;
-            number[j] = (multiple % 10) + '0';
+            int product = i * digit + carry;
+            carry = product / 10;
+            number[j] = (product % 10) + '0';
         }
-
         if (carry > 0) {
-            number = (char)(carry + '0') + number;
+
+            number = to_string(carry) + number;
         }
     }
 

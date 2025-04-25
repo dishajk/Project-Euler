@@ -10,6 +10,7 @@
 
 |ID| Problem| Solution|
 |:---|:---|:---|
+|20|[Factorial Digit Sum](https://projecteuler.net/problem=20)|Uses the same logic as power digit sum. [Solution](020_Factorial_Digit_Sum.cpp)|
 |16|[Power Digit Sum](https://projecteuler.net/problem=16)|[016_power_digit_sum.cpp](016_power_digit_sum.cpp)|
 |14|[Longest Collatz Sequence](https://projecteuler.net/problem=14)|[014_CollatzSequence.cpp](014_CollatzSequence.cpp)|
 |13| [Large Sum](https://projecteuler.net/problem=13)|[Solution - 013_largesum.cpp](013_largesum.cpp)|
